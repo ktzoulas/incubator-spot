@@ -23,8 +23,8 @@ import os
 import json
 from multiprocessing import Process
 from common.utils import Util
-from common import hdfs_client as hdfs
-from common.hdfs_client import HdfsException
+from python.common import hdfs_client as hdfs
+from python.common.hdfs_client import HdfsException
 from common.file_collector import FileWatcher
 from multiprocessing import Pool
 

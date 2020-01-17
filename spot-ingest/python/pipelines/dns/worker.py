@@ -25,8 +25,7 @@ import sys
 import os
 from multiprocessing import Process
 from common.utils import Util
-from common import hive_engine
-from common import hdfs_client as hdfs
+from python.common import hive_engine, hdfs_client as hdfs
 from confluent_kafka import KafkaError, KafkaException
 
 

@@ -23,7 +23,7 @@ import json
 import sys
 import datetime
 from common.utils import Util
-from common.kerberos import Kerberos
+from python.common.kerberos import Kerberos
 import common.configurator as Config
 from common.kafka_client import KafkaProducer
 

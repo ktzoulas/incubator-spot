@@ -56,7 +56,7 @@ source venv/bin/activate
 [ ! $? -eq 0 ] && abort
 
 printf "\n  |-- Install Python packages...\n"
-pip install -r streaming-requirements.txt
+pip install -r requirements.txt
 [ ! $? -eq 0 ] && abort
 
 printf "\n  |-- Build code and create egg file.\n"

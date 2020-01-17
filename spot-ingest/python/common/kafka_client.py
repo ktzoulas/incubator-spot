@@ -23,7 +23,7 @@ import sys
 from common.utils import Util
 from confluent_kafka import Producer
 from confluent_kafka import Consumer
-import common.configurator as config
+import python.common.configurator as config
 
 
 class KafkaProducer(object):
